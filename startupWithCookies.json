@@ -8,6 +8,7 @@
 		"response":{
 			"cookies":{
 				"status":"111",
+				"area":"shanghai",
 				"login":"true"
 			},
 			"text":"cookies信息获取成功！",
