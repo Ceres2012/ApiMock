@@ -1,0 +1,6 @@
+java -jar ./moco-runner-0.12.0-standalone.jar http -p 8899 -c first.json
+
+# Run the above command in the ApiMock project to start the mock server.
+# java -jar <path-to-moco-runner> http -p <monitor-port> -c < configuration -file>
+# Protocol: http
+

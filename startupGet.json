@@ -1,0 +1,28 @@
+[
+	{
+		"description":"模拟一个没有参数的Get请求",
+		"request":{
+			"uri":"/getdemo",
+			"method":"get"
+		},
+		"response":{
+			"headers":{"Content-Type":"text/html;charset=gbk"},
+			"text":"这是一个没有参数的Get请求响应"
+		}
+	},
+	{
+		"description":"模拟一个要求参数的Get请求",
+		"request":{
+			"uri":"/getwithparam",
+			"method":"get",
+			"queries":{
+				"name":"jack",
+				"pw":"123456"
+			}
+		},
+		"response":{
+			"headers":{"Content-Type":"text/html;charset=gbk"},
+			"text":"这是一个带有参数的Get请求响应：你好，Jack！"
+		}
+	}
+]

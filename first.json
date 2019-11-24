@@ -1,0 +1,11 @@
+[
+        {
+			"description":"First mock sample",
+			"request":{
+				"uri":"/index"
+			},
+            "response": {
+                "text": "Hello, Moco"
+            }
+        }
+]
